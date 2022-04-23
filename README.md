@@ -3,4 +3,4 @@ Piece of garbage to train myself in reverse engineering
 
 Nothing much to add...
 
-Not tested on Linux and MacOS. It's a pretty simple software and only made to train myself in reverse engineering. You can contribute if you want
+Doesn't work in current form with other systems than Windows, remove the `#include <Windows.h>` and the `MessageBoxA(GetConsoleWindow(), "Dirty little cheater ;)", "Dirty little cheater ;)", NULL);` lines
