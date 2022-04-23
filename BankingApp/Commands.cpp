@@ -54,5 +54,5 @@ void Commands::revealaddresses(Account* acc) {
 		"Account pointer: 0x" << std::hex << &acc << '\n' <<
 		"Account ID: 0x" << std::hex << &acc->accountId << '\n' <<
 		"Account Owner name: 0x" << std::hex << &acc->accountOwnerName << '\n' <<
-		"Account Funds: 0x" << std::hex << &acc->funds << '\n';
+		"Account Funds: 0x" << std::hex << &acc->funds << std::dec << '\n' ;
 }
